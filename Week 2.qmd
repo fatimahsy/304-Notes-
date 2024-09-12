@@ -3,9 +3,40 @@ title: "Week 2"
 format: pdf
 ---
 
-
-
 ```{r}
 
 ```
 
+# Reproducible Workflow
+
+-   This is basically just talking about being able to share your code and allowing people to replicate what you have done the same way.
+-   It enables collaboration.
+-   Tools: Quarto,Projects and deliberate file structure
+
+## Quarto
+
+-   A tool for literate programming(merging code and non code together)
+-   Produces documents in various formats.
+-   We use a quarto file when we want to blend code and none code. When we only want to code, use an r file.
+-   (hash tag) for headers
+-   (\*) for italics
+-   (\*\*) for bold text
+-   control whether code is shown with (echo: false) suppress warnings using (warning: false)
+
+## R Projects and file structures
+
+### Projects:
+
+-   R projects help set up a clear file structure
+-   Avoids dependency on specific user directory setups.
+
+### File Structure:
+
+-   Avoid hard coding file paths
+-   Organize scripts, data
+
+## Git and GitHub
+
+-   Essential for tracking changes and sharing code.
+-   Git enables local version control.
+- Best Practices: Commit often, use meaningful commit messages, use branches for new features. 
