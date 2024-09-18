@@ -40,3 +40,8 @@ format: pdf
 -   Essential for tracking changes and sharing code.
 -   Git enables local version control.
 - Best Practices: Commit often, use meaningful commit messages, use branches for new features. 
+
+# Conclusion 
+
+- Reproducibility is critical for sharing knowledge 
+- Tools like Quarto,Git, and R Projects make it easier. 
